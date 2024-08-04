@@ -1,0 +1,138 @@
+* {
+  /* Orbitron is a linked google font*/
+  /* Fallback fonts are serif fonts */
+  font-family: Orbitron, Arial, "sans serif";
+  box-sizing: border-box;
+  color: darkblue;
+}
+
+/* Set the cursor so it does not change to the text cursor over unediatble content. */
+p,
+h1,
+h2 {
+  cursor: default;
+}
+
+header {
+  width: 90%;
+  margin: 0px auto;
+  text-align: center;
+}
+
+/* ------------------------------- */
+/* Start of colors section styling */
+/* ------------------------------- */
+Section {
+  border: 1px solid darkblue;
+  width: 90%;
+  margin: 0px auto;
+  text-align: center;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  border-radius: 25px;
+}
+
+/* There are 4 blocks, one for each color. */
+.colorBlock {
+  height: 100px;
+  width: 200px;
+  display: inline-block;
+  border-radius: 25px;
+  margin: 10px;
+}
+
+/* Set the text color of all paragraphs with class colorBlock to white for readability*/
+.colorBlock p {
+  color: white;
+  line-height: 1.5em;
+}
+
+/* Style the 5 individual color boxes */
+#dodgerBlue {
+  background-color: dodgerblue;
+}
+
+#lightSkyBlue {
+  background-color: lightskyblue;
+}
+
+#darkBlue {
+  background-color: darkblue;
+}
+
+#lightSteelBlue {
+  background-color: lightsteelblue;
+}
+
+#shadowBlue {
+  background-color: rgba(44, 90, 143, 0.5);
+}
+/* ------------------------------- */
+/* End of colors section styling   */
+/* ------------------------------- */
+
+
+/* ------------------------------- */
+/* Start of font section styling   */
+/* ------------------------------- */
+#fontSection h3 {
+  text-align: center;
+  margin-left: 10px;
+  text-decoration: underline;
+}
+
+#fontSection p {
+  text-align: center;
+  margin-left: 10px;;
+}
+
+.monospaceFont {
+  font-family: monospace;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+/* ------------------------------- */
+/* End of font section styling   */
+/* ------------------------------- */
+
+#mainHeading {
+  font-weight: 900;
+  font-size: 2em;
+  background-color: dodgerblue;
+  color: darkblue;
+}
+
+#tableHeading {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: darkblue;
+  background-color: lightskyblue;
+}
+
+#codeSnippets {
+  color: darkblue;
+  background-color: lightsteelblue;
+  padding: 5px;
+  font-family: monospace;
+}
+
+#tableCellData {
+  color: darkblue;
+  background-color: lightskyblue;
+  padding: 5px;
+}
+
+footer {
+  text-align: center;
+}
+
+img {
+  width: 60px;
+}
+
